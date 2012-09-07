@@ -14,7 +14,7 @@ Download the tgz-file (currently rgoogleanalytics_1.0.1.tar.gz).
 
 Then install it in your running R using command 
   
-	install.packages("~/source/R/rgoogleanalytics_1.0.1.tar.gz", repos = NULL, type="source")
+	install.packages("rgoogleanalytics_1.0.1.tar.gz", repos = NULL, type="source")
   
   
 Simple Query
@@ -28,6 +28,10 @@ Simple Query
 	ga.data <- ga$GetReportData(query)
 	ga.data$data
   
+
+email and password above are the email and password of your analytics account.
+
+apikey is the APIKEY you get from Google Console (https://code.google.com/apis/console).
   
 ToDo
 ====
