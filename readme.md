@@ -35,4 +35,5 @@ That's my first contact to R. So I have focused on getting the new API-version r
 I've neglected 
 * man pages
 * Correct package structure
+
 Help is welcome.
